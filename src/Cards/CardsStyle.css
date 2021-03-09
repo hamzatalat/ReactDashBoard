@@ -1,0 +1,25 @@
+.rectangle {
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 134px;
+    width: 258px;
+    background-color: white;
+  }
+  
+
+  .TextHeading
+  {
+      padding-top: 1em;
+      color: grey;
+  }
+
+
+  .CardContainer
+  {
+      padding-left: 2em;
+  }
+  .rectangle:hover
+  {
+      border: 3px solid blueviolet;
+      color: blueviolet !important;
+  }
