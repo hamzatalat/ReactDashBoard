@@ -1,0 +1,16 @@
+
+/* hide the blue outline */
+.form-control:focus {
+    outline: 0 !important;
+    border-color: initial;
+    box-shadow: none;
+}
+
+.header-bg{
+    background-color: white;
+    border: 0px solid #000;
+
+}
+#search-bar{
+    border: 0px solid #000;
+}

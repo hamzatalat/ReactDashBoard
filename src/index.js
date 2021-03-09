@@ -1,13 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import sideBar from './sidebar/sideBar.js';
+import header from './header/header.js';
+import dashboard from './dashboard/dashboard.js';
+
+import { Route,  BrowserRouter as Router } from 'react-router-dom'
+
+
+
+const routing = (
+  <Router>
+      <Route exact path="/" component={dashboard} />
+     
+  </Router>
+)
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+	<div >{routing}
+  <header/>
+  </div>,
   document.getElementById('root')
 );
 
